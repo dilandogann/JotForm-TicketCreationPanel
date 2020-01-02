@@ -1,0 +1,245 @@
+// Emmet article generation line : .col-xs-12.article-wrapper*5>article>a.more[href=#]>{more}^+.img-wrapper>img[src=http://lorempixel.com/150/150/nature]^+h1>Lorem3^+p>Lorem15
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+$size: 150px;
+$bg: #cde;
+
+.bodyBackgorund {
+  background: #eee6ff;
+}
+.article-wrapper {
+  width: 1200px;
+}
+h1#header {
+  font-size: 30px;
+  top: 20px;
+  position: relative;
+  text-shadow: 0 2px 2px white;
+  cursor: pointer;
+  margin-left: 800px;
+  color: aliceblue;
+  margin-top: 50px;
+}
+
+.h1-header {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 800 !important;
+  top: 40px;
+  position: relative;
+  text-shadow: 0 2px 2px white;
+  cursor: pointer;
+  margin-left: 50px;
+  color: #393e46;
+}
+
+.Freshdesk {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 80px;
+  height: 60px;
+}
+
+.Zendesk {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  width: 80px;
+  height: 40px;
+}
+
+article {
+  position: relative;
+  padding-left: 180px;
+  padding-right: 75px;
+  height: 100px;
+  margin-bottom: 30px;
+  background-color: ghostwhite;
+  cursor: pointer;
+
+  .img-wrapperFreshdesk {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 30px;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e6ffee;
+
+    img {
+      width: 60px;
+      right: 0px;
+      position: absolute;
+    }
+  }
+
+  .img-wrapperZendesk {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(112, 163, 175);
+
+    img {
+      position: absolute;
+      top: 10px;
+      width: 50px;
+      right: 5px;
+    }
+  }
+
+  .ticketName {
+    font-weight: 600;
+    font-family: monospace;
+    line-height: 60px;
+    font-size: 17px;
+    border-bottom: 2px solid aliceblue;
+    color: black;
+  }
+  .ticketDate {
+    font-family: monospace;
+    color: dimgrey;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+  }
+  a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    line-height: $size;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    font-size: 48px;
+    font-style: italic;
+    opacity: 0;
+    color: #428bca !important;
+    text-decoration: none !important;
+    font-family: "Pacifico";
+  }
+  &:hover {
+    .img-wrapperFreshdesk {
+      padding: 25px;
+      img {
+        width: 70px;
+      }
+    }
+    .img-wrapperZendesk {
+      padding: 25px;
+      img {
+        width: 60px;
+        right: 0px;
+      }
+    }
+    a {
+      opacity: 1;
+    }
+  }
+}
+
+.bloc {
+  article {
+    padding: 10px;
+    height: $size * 1.5;
+    margin-top: $size/2;
+
+    .img-wrapper {
+      position: relative;
+      left: inherit;
+      margin: auto;
+      margin-bottom: -$size + 50;
+    }
+
+    h1 {
+      font-size: 14px;
+      height: $size/4;
+      line-height: $size/4;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    a {
+      line-height: $size * 1.5 +30;
+    }
+  }
+}
+
+.containerTickets {
+  height: 900px;
+  width: 1500px;
+  background: #6d1cff;
+  margin-top: 30px;
+  left: 200px;
+  position: absolute;
+  border-radius: 50px;
+}
+
+.containerCard {
+  height: 900px;
+  overflow-y: scroll;
+  background: white;
+  width: 1300px;
+  left: 202px;
+  position: relative;
+  border-radius: 50px;
+  overflow-x: hidden;
+}
+
+.liContent {
+  margin-top: 100px;
+  margin-top: 60px;
+}
+.liAlign {
+  display: contents;
+}
+
+.TicketHistoryLogoTickets {
+  background: url(../../Assets/Images/ticketLogoHover.png);
+  position: absolute;
+  top: 250px;
+  left: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4.6%;
+  height: 7%;
+  cursor: pointer;
+}
+
+.logoImg {
+  position: absolute;
+  width: 6.8px;
+  left: 6.8px;
+}
+
+.avatarticketHistory {
+  margin-left: -310px !important;
+  width: 60px !important;
+  height: 60px !important;
+  position: absolute !important;
+  top: -45px !important;
+}
+.formname {
+  bottom: 25px;
+  font-weight: 500;
+  position: absolute;
+}

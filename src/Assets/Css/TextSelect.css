@@ -1,0 +1,52 @@
+.textSelectMain {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.inputButton {
+  border: none;
+  outline: none;
+  align-items: center;
+  appearance: none;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  height: 15px;
+  justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.inputTag {
+  margin-left: 2px;
+  margin-right: 2px;
+  border: none;
+  outline: none;
+  width: fit-content;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  height: 20px;
+  line-height: 0px;
+  padding: 0px 10px;
+}
+
+.TagDiv {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  padding: 0px 10px;
+  position: relative;
+  color: black;
+  background: rgba(20, 20, 20, 0.2);
+  width: 375px;
+  min-height: 42px;
+  height: fit-content;
+  border: 1px solid #556;
+}

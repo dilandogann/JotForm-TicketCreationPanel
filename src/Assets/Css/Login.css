@@ -1,0 +1,66 @@
+.Login-Background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url(../../Assets/Images/LoginImage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Login-Modal {
+  left: 300px;
+  position: relative;
+  top: 200px;
+  display: inline-block;
+}
+.Login-h4 {
+  display: flex;
+}
+.Login-p {
+  display: flex;
+  font-size: 30px;
+  font-weight: 900;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-appearance: button !important;
+}
+.Login-Button {
+  width: 500px;
+  top: 30px;
+  position: relative;
+  height: 46px;
+  text-align: center !important;
+  line-height: 40px;
+  background-color: #3852ca;
+  font-size: 17px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.Login-Input {
+  -webkit-appearance: button !important;
+  height: 36px;
+  position: relative;
+  font-size: 15px;
+  display: flex;
+  width: 500px;
+  font-weight: 600;
+}
+
+.Login-Container {
+  left: 570px;
+  height: fit-content;
+  margin-top: 200px;
+  width: 480px;
+}
+.Login-InputContent {
+  top: 50px;
+  position: relative;
+}
