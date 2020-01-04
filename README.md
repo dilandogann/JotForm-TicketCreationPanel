@@ -29,7 +29,7 @@ This application is to create ticket via integration for JotForm users.First use
 
 ![](screenshots/MappingFields.PNG)
 
-<h4>When user clicks to save and done button user redirected to forms component to click create ticket button! Well,our ticket created on freshdesk !</h4>
+<h4>6.When user clicks to save and done button user redirected to forms component to click create ticket button! Well,our ticket created on freshdesk !</h4>
 
 ![](screenshots/NewTicketOnFreshdesk.PNG)
 
